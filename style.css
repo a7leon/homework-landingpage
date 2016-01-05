@@ -1,0 +1,192 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+
+
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family:'Open Sans', sans-serif;
+     font-weight: 'Light, Light Italic, Semibold, Extrabold';
+     background: url(header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size:cover;
+    
+}
+
+.Relaxr {
+  font-size: 24px;
+  font-weight: 800;
+ 
+}
+
+
+
+header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+  padding: 5%;
+}
+
+header .Relaxr {
+  color:white;
+}
+
+.button {
+  display:block;
+  height: 50px;
+  width:150px;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 14px;
+  font-weight: 800;
+  color:black;
+  padding-top: 1%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #f9e42e;
+}
+
+
+article {
+  background-color: #E0DEE0;
+  padding: 7%;
+  margin-top: 5%;
+  border-top: 5px;
+}
+
+article h1 {
+
+  font-size: 20px;
+  font-weight: 600;
+}
+
+article p {
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+
+
+
+aside {
+  background: url(testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+  background-clip: border-box;
+  padding:5%;
+  margin:0%;
+}
+
+
+
+
+
+
+
+blockquote {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  font-weight:300;
+  color:white;
+}
+
+#amandaquote {
+  font-size:18px;
+  font-weight: 600;
+  color:white;
+  text-align: center;
+
+}
+
+section {
+  padding:.5%;
+  background-color:#f9e42e;
+
+}
+
+#signup {
+        color:white;
+        background-color: #033048;
+}
+
+footer {
+        background-color: #121212;
+        font-size: 9px;
+        font-weight: 600;
+        text-align: center;
+        padding:7%;
+
+
+}
+
+footer .Relaxr {
+        color:#f9e42e;
+
+      }
+
+footer li  {
+  float: left;
+  margin: 0 10px;
+}
+
+
+
+#copyright {
+  font-size: 9px;
+  font-weight: 600;
+  color:white;
+  clear:both;
+}
+
+
+
+
+
+
+
