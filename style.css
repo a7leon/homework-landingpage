@@ -54,13 +54,13 @@ body {
      font-weight: 'Light, Light Italic, Semibold, Extrabold';
      background: url(header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size:cover;
-    
+
 }
 
 .Relaxr {
   font-size: 24px;
   font-weight: 800;
- 
+
 }
 
 
@@ -111,7 +111,8 @@ article p {
   font-weight: 300px;
 }
 
-
+/* ND: You don't need this much spacing between rules. I'd stick with one or two
+between rules*/
 
 
 aside {
@@ -167,14 +168,14 @@ footer {
 
 footer .Relaxr {
         color:#f9e42e;
-
+/*ND: don't need the space here. You can use a validator for your CSS files too: https://jigsaw.w3.org/css-validator/#validate_by_input*/
       }
 
 footer li  {
   float: left;
   margin: 0 10px;
 }
-
+/*Nice job using descendant selectors! Extra credit there, haha!*/
 
 
 #copyright {
@@ -184,9 +185,5 @@ footer li  {
   clear:both;
 }
 
-
-
-
-
-
-
+/*ND: Looks like you got a good handle on using classes and ids*/
+/*ND: I notice you didn't include any columns here. Do you have questions about layout (floats, width etc?)*/
